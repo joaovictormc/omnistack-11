@@ -9,6 +9,7 @@
       "android",
       "web"
     ],
+
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,14 +18,23 @@
       "resizeMode": "contain",
       "backgroundColor": "#E02041"
     },
+
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "ios": {
+      "bundleIdentifier": "com.maciel.bethehero",
       "supportsTablet": true
+    },
+
+    "android": {
+      "package": "com.maciel.bethehero",
+      "versionCode": 1
     }
   }
 }
