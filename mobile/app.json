@@ -28,12 +28,12 @@
     ],
 
     "ios": {
-      "bundleIdentifier": "com.maciel.bethehero",
+      "bundleIdentifier": "com.ciel.bthero",
       "supportsTablet": true
     },
 
     "android": {
-      "package": "com.maciel.bethehero",
+      "package": "com.ciel.bthero",
       "versionCode": 1
     }
   }
