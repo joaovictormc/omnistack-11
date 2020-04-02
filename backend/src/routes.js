@@ -29,11 +29,11 @@ routes.get('/incidents', celebrate({
 }), IncidentsController.index);
 
 
-routes.post('/incidents', celebrate({
+routes.post('/incidents',/* celebrate({
     [Segments.BODY]: Joi.object().keys({
         authorization: Joi.string().required(),
     })
-}), IncidentsController.create);
+}),*/ IncidentsController.create);
 
 
 routes.delete('/incidents/:id', celebrate({
@@ -50,10 +50,10 @@ routes.get('/profile', celebrate({
 }), ProfileController.index);
 
 
-routes.post('/session', celebrate({
+routes.post('/session', /*celebrate({
     [Segments.BODY]: Joi.object().keys({
         id: Joi.string().required(),
     })
-}), SessionController.create);
+}),*/ SessionController.create);
 
 module.exports = routes;

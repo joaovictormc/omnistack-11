@@ -8,7 +8,7 @@ export default StyleSheet.create({
         paddingTop: Constants.statusBarHeight + 20
     },
 
-    header : {
+    header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center'
@@ -21,6 +21,7 @@ export default StyleSheet.create({
         marginBottom: 16,
         marginTop: 48
     },
+
 
     incidentProperty: {
         fontSize: 14,
@@ -39,7 +40,7 @@ export default StyleSheet.create({
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#FFF',
-        marginBottom: 16,
+        marginBottom: 16
     },
 
     heroTitle: {
@@ -58,11 +59,11 @@ export default StyleSheet.create({
     actions: {
         marginTop: 16,
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
     },
 
     action: {
-        backgroundColor: '#E02041',
+        backgroundColor: '#e02041',
         borderRadius: 8,
         height: 50,
         width: '48%',

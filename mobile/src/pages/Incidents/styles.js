@@ -8,7 +8,7 @@ export default StyleSheet.create({
         paddingTop: Constants.statusBarHeight + 20,
     },
 
-    header : {
+    header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center'
@@ -37,12 +37,17 @@ export default StyleSheet.create({
         color: '#737380'
     },
 
+    incidentList: {
+        marginTop: 32
+    },
+
     incident: {
         padding: 24,
-        borderRadius: 14,
+        borderRadius: 8,
         backgroundColor: '#FFF',
         marginBottom: 16
     },
+
 
     incidentProperty: {
         fontSize: 14,
@@ -64,8 +69,8 @@ export default StyleSheet.create({
     },
 
     detailsButtonText: {
-        color: '#E02041',
+        color: '#e02041',
         fontSize: 15,
         fontWeight: 'bold'
     },
-});
+})
