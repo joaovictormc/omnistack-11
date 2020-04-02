@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ciel.bethehero",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ciel.bethehero",
+      "versionCode": 1
     }
   }
 }
